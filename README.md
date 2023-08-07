@@ -1,6 +1,6 @@
 # Form Builder
 
-Form Builder is a powerful tool that provides a user-friendly interface to create dynamic forms. It allows users to design forms with various question types, validations, and logic. The project also includes the capability to save forms to the local storage and test them with ease.
+Form Builder is a tool that provides a user-friendly interface to create dynamic forms. It allows users to design forms with various question types, validations, and logic. The project also includes the capability to save forms to the local storage and test them with ease.
 
 ## Features
 
