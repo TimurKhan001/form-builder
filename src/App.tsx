@@ -34,7 +34,7 @@ const App: React.FC = () => {
 
   return (
     <>
-      <nav className="fixed left-0 top-0 w-full h-16 flex flex-row justify-center align-middle lg:h-full lg:w-64 lg:flex-col lg:justify-start bg-slate-700">
+      <nav className="fixed z-50 left-0 top-0 w-full h-16 flex flex-row justify-center align-middle lg:h-full lg:w-64 lg:flex-col lg:justify-start bg-slate-700">
         {Object.keys(pages).map((page) => (
           <NavElement
             key={page}
