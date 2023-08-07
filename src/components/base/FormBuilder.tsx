@@ -187,7 +187,7 @@ const FormBuilder: React.FC<FormBuilderProps> = ({ onUnsavedChanges }) => {
     const savedForm = localStorage.getItem("form");
     return savedForm ? JSON.parse(savedForm) : { questions: [] };
   }, []);
-  console.log(defaultForm);
+
   const [form, dispatch] = useReducer(formReducer, defaultForm());
   const [isSaved, setIsSaved] = useState(false);
 
